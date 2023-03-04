@@ -1,4 +1,4 @@
-﻿namespace Eventfully
+﻿namespace Eventfully.Domain.Entities
 {
     public class User
     {

@@ -1,9 +1,14 @@
-﻿using Eventfully.Data;
+﻿using Eventfully.Application.Common.Interfaces;
+using Eventfully.Domain.Entities;
+using Eventfully.Infrastructure;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Eventfully.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")] // api/user
     [ApiController]
     public class UserController : ControllerBase
@@ -14,8 +19,6 @@ namespace Eventfully.Controllers
         {
             _context = context;
         }
-
-
 
         [HttpGet]
         [Route("GetUser")]
