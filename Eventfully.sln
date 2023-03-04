@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventfully.WebUI", "Eventfully.WebUI\Eventfully.WebUI.csproj", "{CAE877CE-2268-4D9E-AA26-F314CA437A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventfully.WebUI", "src\Eventfully.WebUI\Eventfully.WebUI.csproj", "{CAE877CE-2268-4D9E-AA26-F314CA437A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventfully.Infrastructure", "Eventfully.Infrastructure\Eventfully.Infrastructure.csproj", "{A8933E8C-95D9-4FC7-9F42-FCC90273051A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventfully.Infrastructure", "src\Eventfully.Infrastructure\Eventfully.Infrastructure.csproj", "{A8933E8C-95D9-4FC7-9F42-FCC90273051A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventfully.Domain", "Eventfully.Domain\Eventfully.Domain.csproj", "{5734F39F-7FF7-42D6-8932-D91C8ECCF68B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventfully.Domain", "src\Eventfully.Domain\Eventfully.Domain.csproj", "{5734F39F-7FF7-42D6-8932-D91C8ECCF68B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventfully.Application", "Eventfully.Application\Eventfully.Application.csproj", "{C5E59C1D-D8E2-4104-A336-F5AAA488C18F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventfully.Application", "src\Eventfully.Application\Eventfully.Application.csproj", "{C5E59C1D-D8E2-4104-A336-F5AAA488C18F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
