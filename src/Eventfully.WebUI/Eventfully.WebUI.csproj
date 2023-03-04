@@ -24,9 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eventfully.Infrastructure\Eventfully.Infrastructure.csproj" />
     <ProjectReference Include="..\Eventfully.Application\Eventfully.Application.csproj" />
+    <ProjectReference Include="..\Eventfully.Infrastructure\Eventfully.Infrastructure.csproj" />
   </ItemGroup>
+
+
 
 
 

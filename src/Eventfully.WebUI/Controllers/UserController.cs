@@ -1,5 +1,4 @@
-﻿using Eventfully.Application.Common.Interfaces;
-using Eventfully.Domain.Entities;
+﻿using Eventfully.Domain.Entities;
 using Eventfully.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;

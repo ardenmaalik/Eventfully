@@ -1,7 +1,6 @@
-﻿using Eventfully.Application.Common.Interfaces;
+﻿using Eventfully.Application.Common.Models;
 using Eventfully.Domain.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Eventfully.Infrastructure
@@ -10,6 +9,7 @@ namespace Eventfully.Infrastructure
     public class AppDbContext : IdentityDbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
