@@ -9,6 +9,8 @@ namespace Eventfully.Infrastructure
     public class AppDbContext : IdentityDbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Video> Videos { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
