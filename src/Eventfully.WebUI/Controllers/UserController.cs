@@ -20,7 +20,7 @@ namespace Eventfully.Controllers
         }
 
         [HttpGet]
-        [Route("GetUser")]
+        [Route("GetUsers")]
         public async Task<IActionResult> Get()
         {
             var users = await _context.Users.ToListAsync();
